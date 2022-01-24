@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&family=Lato&display=swap');
+
+
+
+* {box-sizing: border-box;}
+
+div {
+    border: rgb(243, 42, 42) solid 2px;
+    
+}
+.greenbit {
+    
+    background: rgb(20, 100, 68);
+    width: 100%;
+    height: 10px; 
+}
+
+ .header {
+    /* border: 3px solid black;
+    background: rgba(247, 246, 246, 0.858);
+    height: 105px;
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-stretch: 100%;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    width: 100%; */ */
+
+    border: 3px solid black;
+
+   
+}
+.header_pages ul li  {
+    border: black solid 1px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 70%;  */
+    /* text-decoration: none; */
+    padding: 8px 25px;
+    /* transition: all .5s ease; */
+    display: inline;
+}
+   
+    
+  
+
+/* 
+. map  {
+  
+    flex-direction: column;
+    width: 30%;
+    height: 20px;
+} */
+
+.images {
+    border: black solid 3px;
+    display: flex;
+    /* width: 100%;
+  */
+    flex-direction: column;
+    align-content: center;
+    flex: 1;
+}
+
+
+/* .social {
+ 
+    background: rgba(247, 246, 246, 0.858);
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    
+    flex-wrap: wrap;
+} */
+
+ol li {
+    display: inline;
+    
+
+}
+.social {
+background: rgba(247, 246, 246, 0.858);
+width: 100%;
+max-width: 1360px;
+margin: 0 auto;
+padding: 0 10px;
+box-sizing: border-box;
+}
