@@ -19,7 +19,7 @@ a {text-decoration: none;}
 
 
  .header  {
-    border: rgb(175, 16, 69) solid 1px;
+    /* border: rgb(175, 16, 69) solid 1px; */
     background: rgba(247, 246, 246, 0.858);
     width: 100%;
    
@@ -31,7 +31,8 @@ a {text-decoration: none;}
     font-weight: 700;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    flex:1
  }
 
 .logo {
@@ -41,10 +42,10 @@ a {text-decoration: none;}
 }
 
 .header_pages{
-    margin-right: 25vh;
+    margin-right: 10vh;
 }
 .header_pages ul li {
-    border: black solid 1px;
+    /* border: black solid 1px; */
     padding: 8px 25px;
     display: inline;
     text-decoration: none;
@@ -62,22 +63,23 @@ a {text-decoration: none;}
 
 
 .headerB {
-    border: brown solid 1px;
+    /* border: brown solid 1px; */
     text-decoration: none;
     width: 15%;
     margin-left: 8vh;
     margin-top: 2vh;
+    align-self: flex-start;
   
 }
 
 .images {
-    border: black solid 1px;
+    /* border: black solid 1px; */
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    /* flex: 1; */
+    flex: 1;
 }
 
 
@@ -88,13 +90,10 @@ ol li {
 
 }
 .social {
-border: solid pink 4px;
+/* border: solid pink 4px; */
 background: rgba(247, 246, 246, 0.858);
 width: 100%;
 
-
-/* margin-left: 20vh; */
-/* padding-left: 20vh; */
 display: inline;
 display: flex;
 justify-content: center;
@@ -107,7 +106,14 @@ padding-right: 60vh;
 /* Social Icons to  become a bit lighter when hovered */
 
 .icons ol li img:hover {
-    border: solid plum 2px;
+    /* border: solid plum 2px; */
     opacity: 0.5;
 }
 
+.footer {
+    /* border: blueviolet solid 1px; */
+    background: rgba(247, 246, 246, 0.858);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
