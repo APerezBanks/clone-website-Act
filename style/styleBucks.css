@@ -97,8 +97,9 @@ width: 100%;
 display: inline;
 display: flex;
 justify-content: center;
-align-items: center;
-padding-right: 60vh;
+padding-right: 100vh;
+
+
 }
 
 
@@ -117,3 +118,25 @@ padding-right: 60vh;
     justify-content: center;
     align-items: center;
 }
+
+
+
+/*  NO IDEA how to implement the media in this case I copied this from a excercise we did but no idea how to apply it to the clone website */
+
+
+/* @media all and (max-width: 1000px) {
+    .flex-nav ul li {
+      width: 50%;
+    }
+    .flex-nav .social {
+      width: 25%;
+    }
+  }
+  
+  @media all and (max-width: 500px) {
+    .flex-nav ul li {
+      width: 100%;
+    }
+    .flex-nav .social {
+      width: 25%;
+    } */
